@@ -21,6 +21,7 @@ GrilleView = Backbone.View.extend
     position_i = extract_result[1]
     position_j = extract_result[2]
     $("#box-#{position_i}-#{position_j}-possib").html "_"
+    $("#box-#{position_i}-#{position_j}-possib").removeClass "green"
     this.rmPossib knownValue, position_i, position_j
   rmPossib: (value, i, j) ->
     # Clear row
