@@ -38,7 +38,11 @@ body {
         body div.container div#grille div.box input {
           text-align: center;
           width: 50px;
-          height: 30px; }
+          height: 30px;
+          border: 0;
+          font-family: "Comic sans MS";
+          font-weight: 600;
+          font-size: 18px; }
         body div.container div#grille div.box div.possib {
           font-size: 8px; }
         body div.container div#grille div.box div.green {
