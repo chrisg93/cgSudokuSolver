@@ -2,23 +2,46 @@
   margin: 0;
   padding: 0; }
 
-h1 {
-  text-align: center; }
+* {
+  margin: 0;
+  padding: 0; }
 
-div#grille {
-  margin: 0 auto;
-  width: 490px; }
-  div#grille div.box {
-    display: inline-block;
-    text-align: center;
-    width: 50px; }
-    div#grille div.box input {
+body {
+  background-color: yellowgreen; }
+  body div.container {
+    margin: 8% auto 0;
+    width: 500px;
+    background-color: white;
+    border: 1px solid black;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 5px 1px black;
+    box-shadow: 1px 1px 5px 1px black; }
+    body div.container h1 {
       text-align: center;
-      width: 50px;
-      height: 30px; }
-    div#grille div.box div.possib {
-      font-size: 8px; }
-    div#grille div.box div.green {
-      background-color: limegreen; }
-  div#grille div.cell1 input {
-    background-color: lightskyblue; }
+      font-weight: 300;
+      font-family: Tahoma, Verdana; }
+    body div.container hr {
+      height: 1px;
+      color: black;
+      background-color: black;
+      border-color: black; }
+    body div.container div#grille {
+      margin: 0 auto;
+      width: 490px;
+      padding: 5px; }
+      body div.container div#grille div.box {
+        display: inline-block;
+        text-align: center;
+        width: 50px; }
+        body div.container div#grille div.box input {
+          text-align: center;
+          width: 50px;
+          height: 30px; }
+        body div.container div#grille div.box div.possib {
+          font-size: 8px; }
+        body div.container div#grille div.box div.green {
+          background-color: limegreen; }
+      body div.container div#grille div.cell1 input {
+        background-color: lightskyblue; }
